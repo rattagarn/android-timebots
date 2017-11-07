@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Timebots</string>
+    <string name="login_remember">จำ Login</string>
+    <string name="login_instruction">กรุณาใส่บัญชีผุ้ใช้งาน และรหัสผ่าน</string>
+    <string name="kiosk_instruction">กรุณาใส่หมายเลขพนักงาน</string>
+    <string name="login_submit">เข้าสู่ระบบ</string>
+    <string name="logout_submit">ออกจากระบบ</string>
+    <string name="copyright">2017 \u00A9 by Akinn</string>
+    <string name="version">version 0.0.1</string>
+    <string name="emp_id">รหัสพนักงาน</string>
+    <string name="emp_name">ชื่อ</string>
+    <string name="scan_in">บันทึกเวลาล่าสุด</string>
+    <string name="password">รหัสผ่าน</string>
+    <string name="menu_scan">สแกนเข้างาน</string>
+    <string name="menu_exit">ปิดโปรแกรม</string>
+    <string name="scan_scanin">CheckIn</string>
+    <string name="scan_hint">รายละเอียด...</string>
+    <string name="scan_button">บันทึกเวลา</string>
+    <string name="retake_picture">ถ่ายรูปใหม่</string>
+    <string name="review_title">ตรวจทานก่อนส่ง</string>
+    <string name="review_edit">แก้ไข</string>
+    <string name="review_confirm">ยืนยัน</string>
+    <string name="review_has_photo">มีรูปถ่าย</string>
+    <string name="review_has_location">มีตำแหน่งที่อยู่</string>
+    <string name="location_broadcast_name">LOCATION_UPDATE</string>
+    <string name="exit_title">ปิดโปรแกรม</string>
+    <string name="exit_message">คุณต้องการปิดโปรแกรม?</string>
+    <string name="logout_title">ออกจากระบบ</string>
+    <string name="logout_message">คุณต้องการออกจากระบบ?</string>
+    <string name="yes">ใช่</string>
+    <string name="no">ไม่</string>
+    <string name="ok">ตกลง</string>
+    <string name="succes_scanin">สแกนสำเร็จ</string>
+    <string name="fail_scanin">สแกนไม่สำเร็จ</string>
+</resources>

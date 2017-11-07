@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorBackground">#664F63</color>
+    <color name="colorInstructBg">#FA6F58</color>
+    <color name="colorButton">#4F4FEE</color>
+    <color name="colorBrightText">#DEDEDE</color>
+    <color name="colorTakePicture">#47ADD9</color>
+    <color name="colorMenuScan">#34AB45</color>
+    <color name="colorMenuExit">#7F7F7F</color>
+    <color name="colorEmpId">#DEDEDE</color>
+    <color name="colorEmpIdDark">#BEBEBE</color>
+    <color name="colorEmpName">#DEDEAA</color>
+    <color name="colorEmpNameDark">#DEDE8E</color>
+    <color name="colorBgLogo">#ED1B24</color>
+    <color name="colorLogout">#FF6072</color>
+</resources>

@@ -1,0 +1,473 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/63bb08c284a832c6b95708b5c32035f1/AndroidManifest.xml:2:1-11:12
+MERGED from [com.google.firebase:firebase-storage:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.2.0.aar/05e7fe347ff4f99dadbe402838dcf711/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-database-9.2.0.aar/92711713d10c8e9ec0e6591fd83f82a5/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.2.0.aar/dd9e7d489fe4588c5491f2d90446ce02/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-location-9.2.0.aar/b82da2dfb2d93994d3d900eb47260641/AndroidManifest.xml:16:1-20:12
+MERGED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:10:6-44:12
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:2:1-19:12
+MERGED from [com.google.firebase:firebase-core:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-core-9.2.0.aar/0653ff99993070eea1f149429641169a/AndroidManifest.xml:2:1-6:12
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/cdff92de13dac2ca6536ca8adb86b14e/AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/015fb430b69fc9b4a1fb3908ff5f4947/AndroidManifest.xml:17:1-28:12
+MERGED from [com.google.firebase:firebase-storage-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.2.0.aar/a10e2feaae1c02319e250e4f8245e07b/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-database-connection:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.2.0.aar/2e2a1c5692bb3c106087df154615acf2/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.2.0.aar/a3c100ba504d545d354cd7e61e052d11/AndroidManifest.xml:16:1-22:12
+MERGED from [com.google.firebase:firebase-auth-module:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.2.0.aar/e2d2c352527a775163e2d95bc8bf2981/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:16:1-42:12
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:16:1-60:12
+MERGED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:2:1-13:12
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/7452e26f449c0679003b940e86a86cfe/AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:support-v4:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/786b3c9dab82b17838ef9793148e818c/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/875ef435877e684a4244b93215418fcd/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3180e19d7438f9c8cc74805dc2e1c2d3/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/11a93aa1eb0a75920634aacf84ccd70d/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/2ce7a91a756c0768d813fdf8ad6b54f1/AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/12743a19dd4142be6c569a0c265582ce/AndroidManifest.xml:17:1-31:12
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/champ/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/e5aa9627388b249d22274a731af62057/AndroidManifest.xml:2:1-13:12
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/329924f5100fb6b7bf0b8de9b206b083/AndroidManifest.xml:45:1-56:12
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/f7eb6fe4592d90039d50571a730ae140/AndroidManifest.xml:2:1-13:12
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/bce192c87dbdd2aaf49f7e06236400fb/AndroidManifest.xml:22:1-33:12
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+	package
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:3:5-33
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+	android:versionCode
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:1-52:12
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:2:11-69
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:5:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:22:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:20:5-79
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:20:5-79
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:5:22-76
+uses-permission#android.permission.CAMERA
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:6:5-65
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:6:22-62
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:7:5-79
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:7:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:8:5-81
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:8:22-78
+uses-permission#android.permission.INTERNET
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:9:5-66
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:9:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:21:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:21:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/champ/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/e5aa9627388b249d22274a731af62057/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/champ/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/e5aa9627388b249d22274a731af62057/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/329924f5100fb6b7bf0b8de9b206b083/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/329924f5100fb6b7bf0b8de9b206b083/AndroidManifest.xml:52:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/f7eb6fe4592d90039d50571a730ae140/AndroidManifest.xml:9:5-67
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/f7eb6fe4592d90039d50571a730ae140/AndroidManifest.xml:9:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/bce192c87dbdd2aaf49f7e06236400fb/AndroidManifest.xml:29:5-67
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/bce192c87dbdd2aaf49f7e06236400fb/AndroidManifest.xml:29:5-67
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:9:22-64
+uses-feature#android.hardware.camera.front
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:11:5-66
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:11:19-63
+application
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:13:5-50:19
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/63bb08c284a832c6b95708b5c32035f1/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/63bb08c284a832c6b95708b5c32035f1/AndroidManifest.xml:9:5-20
+MERGED from [com.google.firebase:firebase-auth:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.2.0.aar/dd9e7d489fe4588c5491f2d90446ce02/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.2.0.aar/dd9e7d489fe4588c5491f2d90446ce02/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-location-9.2.0.aar/b82da2dfb2d93994d3d900eb47260641/AndroidManifest.xml:19:5-20
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-location-9.2.0.aar/b82da2dfb2d93994d3d900eb47260641/AndroidManifest.xml:19:5-20
+MERGED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:39:5-43:19
+MERGED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:39:5-43:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:11:5-17:19
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:11:5-17:19
+MERGED from [com.google.firebase:firebase-core:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-core-9.2.0.aar/0653ff99993070eea1f149429641169a/AndroidManifest.xml:5:5-20
+MERGED from [com.google.firebase:firebase-core:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-core-9.2.0.aar/0653ff99993070eea1f149429641169a/AndroidManifest.xml:5:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/cdff92de13dac2ca6536ca8adb86b14e/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/cdff92de13dac2ca6536ca8adb86b14e/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/015fb430b69fc9b4a1fb3908ff5f4947/AndroidManifest.xml:26:5-20
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/015fb430b69fc9b4a1fb3908ff5f4947/AndroidManifest.xml:26:5-20
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.2.0.aar/a3c100ba504d545d354cd7e61e052d11/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.2.0.aar/a3c100ba504d545d354cd7e61e052d11/AndroidManifest.xml:20:5-21:19
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:26:5-41:19
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:30:5-59:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:5:5-12:19
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/7452e26f449c0679003b940e86a86cfe/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/7452e26f449c0679003b940e86a86cfe/AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:support-v4:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/786b3c9dab82b17838ef9793148e818c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-v4:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/786b3c9dab82b17838ef9793148e818c/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/875ef435877e684a4244b93215418fcd/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/875ef435877e684a4244b93215418fcd/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3180e19d7438f9c8cc74805dc2e1c2d3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3180e19d7438f9c8cc74805dc2e1c2d3/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/11a93aa1eb0a75920634aacf84ccd70d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/11a93aa1eb0a75920634aacf84ccd70d/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/2ce7a91a756c0768d813fdf8ad6b54f1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/2ce7a91a756c0768d813fdf8ad6b54f1/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/12743a19dd4142be6c569a0c265582ce/AndroidManifest.xml:29:5-20
+MERGED from [com.android.support:support-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/12743a19dd4142be6c569a0c265582ce/AndroidManifest.xml:29:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/champ/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/e5aa9627388b249d22274a731af62057/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/champ/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/e5aa9627388b249d22274a731af62057/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/329924f5100fb6b7bf0b8de9b206b083/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/329924f5100fb6b7bf0b8de9b206b083/AndroidManifest.xml:54:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/f7eb6fe4592d90039d50571a730ae140/AndroidManifest.xml:11:5-20
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/f7eb6fe4592d90039d50571a730ae140/AndroidManifest.xml:11:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/bce192c87dbdd2aaf49f7e06236400fb/AndroidManifest.xml:31:5-20
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/bce192c87dbdd2aaf49f7e06236400fb/AndroidManifest.xml:31:5-20
+	android:screenOrientation
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:19:9-45
+	android:supportsRtl
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:20:9-35
+	android:label
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:17:9-41
+	android:roundIcon
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:18:9-54
+	android:icon
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:16:9-43
+	android:allowBackup
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:15:9-35
+	android:theme
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:21:9-40
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:14:9-43
+activity#com.akinn.timebots.LoginActivity
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:22:9-30:20
+	android:noHistory
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:24:13-37
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:23:13-42
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:25:13-29:29
+action#android.intent.action.MAIN
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:26:17-69
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:26:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:28:17-77
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:28:27-74
+activity#com.akinn.timebots.AnonymousLoginActivity
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:37:9-60
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:37:19-57
+activity#com.akinn.timebots.Scan2Activity
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:40:9-42:52
+	android:screenOrientation
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:42:13-49
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:41:13-42
+service#com.akinn.timebots.MyLocationService
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:44:9-46:38
+	android:enabled
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:46:13-35
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:45:13-46
+meta-data#io.fabric.ApiKey
+ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:47:9-49:72
+	android:value
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:49:13-69
+	android:name
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml:48:13-44
+uses-sdk
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/63bb08c284a832c6b95708b5c32035f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support.constraint:constraint-layout:1.0.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/constraint-layout-1.0.2.aar/63bb08c284a832c6b95708b5c32035f1/AndroidManifest.xml:5:5-7:41
+MERGED from [com.google.firebase:firebase-storage:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.2.0.aar/05e7fe347ff4f99dadbe402838dcf711/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-storage-9.2.0.aar/05e7fe347ff4f99dadbe402838dcf711/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-database-9.2.0.aar/92711713d10c8e9ec0e6591fd83f82a5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-database-9.2.0.aar/92711713d10c8e9ec0e6591fd83f82a5/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-auth:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.2.0.aar/dd9e7d489fe4588c5491f2d90446ce02/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-9.2.0.aar/dd9e7d489fe4588c5491f2d90446ce02/AndroidManifest.xml:18:5-43
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-location-9.2.0.aar/b82da2dfb2d93994d3d900eb47260641/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-location:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-location-9.2.0.aar/b82da2dfb2d93994d3d900eb47260641/AndroidManifest.xml:18:5-42
+MERGED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:37:5-42
+MERGED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:37:5-42
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:7:5-43
+MERGED from [com.google.firebase:firebase-core:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-core-9.2.0.aar/0653ff99993070eea1f149429641169a/AndroidManifest.xml:4:5-42
+MERGED from [com.google.firebase:firebase-core:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-core-9.2.0.aar/0653ff99993070eea1f149429641169a/AndroidManifest.xml:4:5-42
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/cdff92de13dac2ca6536ca8adb86b14e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/cdff92de13dac2ca6536ca8adb86b14e/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/015fb430b69fc9b4a1fb3908ff5f4947/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/015fb430b69fc9b4a1fb3908ff5f4947/AndroidManifest.xml:20:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.2.0.aar/a10e2feaae1c02319e250e4f8245e07b/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-storage-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-storage-common-9.2.0.aar/a10e2feaae1c02319e250e4f8245e07b/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.2.0.aar/2e2a1c5692bb3c106087df154615acf2/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-database-connection:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-database-connection-9.2.0.aar/2e2a1c5692bb3c106087df154615acf2/AndroidManifest.xml:5:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.2.0.aar/a3c100ba504d545d354cd7e61e052d11/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-common-9.2.0.aar/a3c100ba504d545d354cd7e61e052d11/AndroidManifest.xml:18:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.2.0.aar/e2d2c352527a775163e2d95bc8bf2981/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-auth-module:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-auth-module-9.2.0.aar/e2d2c352527a775163e2d95bc8bf2981/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:18:5-42
+MERGED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/7452e26f449c0679003b940e86a86cfe/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-tasks-9.2.0.aar/7452e26f449c0679003b940e86a86cfe/AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:support-v4:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/786b3c9dab82b17838ef9793148e818c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/786b3c9dab82b17838ef9793148e818c/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/875ef435877e684a4244b93215418fcd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/875ef435877e684a4244b93215418fcd/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3180e19d7438f9c8cc74805dc2e1c2d3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3180e19d7438f9c8cc74805dc2e1c2d3/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/11a93aa1eb0a75920634aacf84ccd70d/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/11a93aa1eb0a75920634aacf84ccd70d/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/2ce7a91a756c0768d813fdf8ad6b54f1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/2ce7a91a756c0768d813fdf8ad6b54f1/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/12743a19dd4142be6c569a0c265582ce/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/12743a19dd4142be6c569a0c265582ce/AndroidManifest.xml:21:5-23:58
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/champ/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/e5aa9627388b249d22274a731af62057/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:beta:1.2.7] /Users/champ/.gradle/caches/transforms-1/files-1.1/beta-1.2.7.aar/e5aa9627388b249d22274a731af62057/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/329924f5100fb6b7bf0b8de9b206b083/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:crashlytics-core:2.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-core-2.4.1.aar/329924f5100fb6b7bf0b8de9b206b083/AndroidManifest.xml:50:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/f7eb6fe4592d90039d50571a730ae140/AndroidManifest.xml:7:5-43
+MERGED from [com.crashlytics.sdk.android:answers:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/answers-1.4.1.aar/f7eb6fe4592d90039d50571a730ae140/AndroidManifest.xml:7:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/bce192c87dbdd2aaf49f7e06236400fb/AndroidManifest.xml:27:5-43
+MERGED from [io.fabric.sdk.android:fabric:1.4.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/fabric-1.4.1.aar/bce192c87dbdd2aaf49f7e06236400fb/AndroidManifest.xml:27:5-43
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:23:9-75
+	android:targetSdkVersion
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+		ADDED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/champ/Downloads/Timebots/app/src/main/AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/cdff92de13dac2ca6536ca8adb86b14e/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:animated-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/animated-vector-drawable-25.3.1.aar/cdff92de13dac2ca6536ca8adb86b14e/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/015fb430b69fc9b4a1fb3908ff5f4947/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-vector-drawable:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-vector-drawable-25.3.1.aar/015fb430b69fc9b4a1fb3908ff5f4947/AndroidManifest.xml:22:5-24:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/786b3c9dab82b17838ef9793148e818c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-v4:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-v4-25.3.1.aar/786b3c9dab82b17838ef9793148e818c/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/875ef435877e684a4244b93215418fcd/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-fragment:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-fragment-25.3.1.aar/875ef435877e684a4244b93215418fcd/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3180e19d7438f9c8cc74805dc2e1c2d3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-media-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-media-compat-25.3.1.aar/3180e19d7438f9c8cc74805dc2e1c2d3/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/11a93aa1eb0a75920634aacf84ccd70d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-utils:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-utils-25.3.1.aar/11a93aa1eb0a75920634aacf84ccd70d/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/2ce7a91a756c0768d813fdf8ad6b54f1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-core-ui:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-core-ui-25.3.1.aar/2ce7a91a756c0768d813fdf8ad6b54f1/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/12743a19dd4142be6c569a0c265582ce/AndroidManifest.xml:25:5-27:34
+MERGED from [com.android.support:support-compat:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/support-compat-25.3.1.aar/12743a19dd4142be6c569a0c265582ce/AndroidManifest.xml:25:5-27:34
+	android:value
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:27:9-31
+	android:name
+		ADDED from [com.android.support:appcompat-v7:25.3.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/AndroidManifest.xml:26:9-47
+activity#org.acra.dialog.CrashReportDialog
+ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:40:9-241
+	android:process
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:40:172-195
+	android:excludeFromRecents
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:40:19-52
+	android:launchMode
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:40:87-122
+	android:theme
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:40:196-239
+	android:finishOnTaskLaunch
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:40:53-86
+	android:name
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:40:123-171
+service#org.acra.sender.SenderService
+ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:42:9-113
+	android:process
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:42:88-111
+	android:exported
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:42:18-42
+	android:name
+		ADDED from [ch.acra:acra:4.9.2] /Users/champ/.gradle/caches/transforms-1/files-1.1/acra-4.9.2.aar/f27079779326e374af26fb306b22e504/AndroidManifest.xml:42:43-87
+provider#com.crashlytics.android.CrashlyticsInitProvider
+ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:12:9-16:39
+	android:authorities
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:14:13-75
+	android:exported
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:15:13-37
+	android:initOrder
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:16:13-36
+	android:name
+		ADDED from [com.crashlytics.sdk.android:crashlytics:2.7.1] /Users/champ/.gradle/caches/transforms-1/files-1.1/crashlytics-2.7.1.aar/6ddf66d5a82e02b9157789c75065c63c/AndroidManifest.xml:13:13-75
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-base-9.2.0.aar/53b1141a8f352130870dc89a43ae99b9/AndroidManifest.xml:20:19-85
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:24:5-67
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:22:5-68
+MERGED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:22:5-68
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:24:22-65
+receiver#com.google.android.gms.measurement.AppMeasurementReceiver
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:28:7-34:18
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:28:7-34:18
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:30:11-33
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:29:11-83
+intent-filter#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:31:9-33:25
+action#com.google.android.gms.measurement.UPLOAD
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:32:11-77
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:32:19-75
+service#com.google.android.gms.measurement.AppMeasurementService
+ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:36:7-39:37
+MERGED from [com.google.firebase:firebase-analytics-impl:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-impl-9.2.0.aar/0d3e12810249b8f37ac02fb397b367e9/AndroidManifest.xml:36:7-39:37
+	android:enabled
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:38:11-33
+	android:exported
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:39:11-35
+	android:name
+		ADDED from [com.google.firebase:firebase-analytics:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-analytics-9.2.0.aar/1e84e3cb518e82408b33864bdd7a6f83/AndroidManifest.xml:37:11-82
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:23:5-82
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:23:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:25:17-71
+permission#com.akinn.timebots.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:25:5-26:47
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:26:9-44
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:25:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:28:22-76
+uses-permission#com.akinn.timebots.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:28:5-79
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:28:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:32:9-41:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:34:13-36
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:35:13-73
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:33:13-78
+intent-filter#${applicationId}+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:36:13-40:29
+intent-filter#com.akinn.timebots+com.google.android.c2dm.intent.RECEIVE+com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:36:13-40:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:37:17-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:37:25-78
+action#com.google.android.c2dm.intent.REGISTRATION
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:38:17-86
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:38:25-83
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:39:27-58
+category#com.akinn.timebots
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:39:17-61
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:39:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:45:9-47:40
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:47:13-37
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:46:13-86
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:51:9-57:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:53:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:52:13-77
+intent-filter#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:54:13-56:29
+	android:priority
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:54:28-51
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:55:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-iid-9.2.0.aar/bb38aea970357b8bf79a18ee77cc233a/AndroidManifest.xml:55:25-77
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:7:9-11:39
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:8:13-72
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:10:13-37
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:11:13-36
+	android:name
+		ADDED from [com.google.firebase:firebase-common:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/firebase-common-9.2.0.aar/265835f1e89e00da85dab7825a92d87f/AndroidManifest.xml:9:13-58
+meta-data#com.google.android.gms.version
+ADDED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:23:13-66
+	android:name
+		ADDED from [com.google.android.gms:play-services-basement:9.2.0] /Users/champ/.gradle/caches/transforms-1/files-1.1/play-services-basement-9.2.0.aar/6b43659edecab6fea04867cee45226d2/AndroidManifest.xml:22:13-58
