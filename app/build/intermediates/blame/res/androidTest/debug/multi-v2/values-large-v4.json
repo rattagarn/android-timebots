@@ -1,25 +1,10 @@
 {
     "logs": [
         {
-            "outputFile": "/Users/champ/Downloads/Timebots/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-large-v4/values-large-v4.xml",
+            "outputFile": "/Users/champ/Documents/android-timebots/app/build/intermediates/incremental/mergeDebugAndroidTestResources/merged.dir/values-large-v4/values-large-v4.xml",
             "map": [
                 {
-                    "source": "/Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.3.1.aar/59503ba2d085609883725a352a5b52ab/res/values-large-v4/values-large-v4.xml",
-                    "from": {
-                        "startLines": "2,3,4,5,6,7,8,9,10",
-                        "startColumns": "4,4,4,4,4,4,4,4,4",
-                        "startOffsets": "55,114,185,256,326,396,464,532,636",
-                        "endColumns": "58,70,70,69,69,67,67,103,115",
-                        "endOffsets": "109,180,251,321,391,459,527,631,747"
-                    }
-                }
-            ]
-        },
-        {
-            "outputFile": "/Users/champ/Downloads/Timebots/C:\\Users\\ratta\\AndroidStudioProjects\\Timebots\\app\\build\\intermediates\\incremental\\mergeDebugAndroidTestResources\\merged.dir\\values-large-v4\\values-large-v4.xml",
-            "map": [
-                {
-                    "source": "/Users/champ/Downloads/Timebots/C:\\Users\\ratta\\.gradle\\caches\\transforms-1\\files-1.1\\appcompat-v7-25.3.1.aar\\2687d67d18a448668178a58e8f114940\\res\\values-large-v4\\values-large-v4.xml",
+                    "source": "/Users/champ/.gradle/caches/transforms-1/files-1.1/appcompat-v7-25.4.0.aar/8c60f6a0fd44ff7975a044b8e2caf80e/res/values-large-v4/values-large-v4.xml",
                     "from": {
                         "startLines": "2,3,4,5,6,7,8,9,10",
                         "startColumns": "4,4,4,4,4,4,4,4,4",

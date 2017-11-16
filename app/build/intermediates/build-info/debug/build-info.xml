@@ -1,105 +1,97 @@
 <?xml version="1.0" encoding="utf-8"?>
 <instant-run
     abi="armeabi-v7a,armeabi"
-    api-level="24"
-    build-mode="FULL"
-    density="hdpi"
+    api-level="22"
+    build-mode="COLD"
+    density="mdpi"
     format="10"
+    ir-eligibility="COMPATIBLE"
     plugin-version="3.0.0"
-    timestamp="1509502949247"
-    token="-1764997042160519379"
-    verifier="FULL_BUILD_REQUESTED" >
+    timestamp="1510563400814"
+    token="7930815758218403225"
+    verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="6903" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="23231" />
+        duration="538" />
     <task
         name="verifier"
-        duration="0" />
+        duration="19" />
 
     <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+        location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
         type="SPLIT" />
     <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\outputs\apk\debug\app-debug.apk"
+        location="/Users/champ/Documents/android-timebots/app/build/outputs/apk/debug/app-debug.apk"
         type="SPLIT_MAIN" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
-        type="SPLIT" />
-    <artifact
-        location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
-        type="SPLIT" />
 
     <build
         build-mode="FULL"
-        timestamp="1509502949247"
+        timestamp="1510558253531"
         verifier="FULL_BUILD_REQUESTED" >
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_9.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\outputs\apk\debug\app-debug.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/outputs/apk/debug/app-debug.apk"
             type="SPLIT_MAIN" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_1.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_8.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_6.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_2.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_0.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_3.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_7.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_7.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/dep/dependencies.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_8.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_9.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_2.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_4.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_5.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_5.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_4.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_1.apk"
             type="SPLIT" />
         <artifact
-            location="C:\Users\ratta\AndroidStudioProjects\Timebots\app\build\intermediates\split-apk\debug\slices\slice_3.apk"
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_0.apk"
             type="SPLIT" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="FIELD_ADDED"
+        timestamp="1510562947929"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/champ/Documents/android-timebots/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
+    </build>
+    <build
+        build-mode="COLD"
+        ir-eligibility="COMPATIBLE"
+        timestamp="1510563400814"
+        verifier="COLD_SWAP_REQUESTED" >
+        <artifact
+            location="/Users/champ/Documents/android-timebots/app/build/intermediates/split-apk/debug/slices/slice_6.apk"
+            type="SPLIT" />
+        <artifact
+            location="/Users/champ/Documents/android-timebots/app/build/outputs/apk/debug/app-debug.apk"
+            type="SPLIT_MAIN" />
     </build>
 
 </instant-run>

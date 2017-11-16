@@ -1,4 +1,4 @@
-#Wed Nov 01 09:03:20 ICT 2017
-base.0=C\:\\Users\\ratta\\AndroidStudioProjects\\Timebots\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28
+#Sat Nov 11 02:29:41 ICT 2017
+base.0=/Users/champ/Documents/android-timebots/app/build/intermediates/transforms/dexMerger/debug/8
 renamed.0=classes.dex
-file.0=C\:\\Users\\ratta\\AndroidStudioProjects\\Timebots\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\28\\classes.dex
+file.0=/Users/champ/Documents/android-timebots/app/build/intermediates/transforms/dexMerger/debug/8/classes.dex

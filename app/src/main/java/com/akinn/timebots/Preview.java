@@ -11,6 +11,8 @@ import android.view.WindowManager;
 import android.widget.FrameLayout;
 import android.widget.Toast;
 
+import com.google.firebase.analytics.FirebaseAnalytics;
+
 import java.io.IOException;
 import java.util.List;
 
@@ -27,12 +29,15 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
     Context mContext;
     Camera.CameraInfo mCameraInfo;
     int mCameraId = 0;
+    String mEmpName;
 
-    Preview(Context context, Camera camera, Camera.CameraInfo cameraInfo, FrameLayout layout) {
+    Preview(Context context, Camera camera, Camera.CameraInfo cameraInfo, FrameLayout layout,
+            String empName) {
         super(context);
         mContext = context;
         mCamera = camera;
         mCameraInfo = cameraInfo;
+        mEmpName = empName;
         // Install a SurfaceHolder.Callback so we get notified when the
         // underlying surface is created and destroyed.
 
@@ -40,8 +45,12 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
         mHolder.addCallback(this);
         mHolder.setType(SurfaceHolder.SURFACE_TYPE_PUSH_BUFFERS);
 
-        if (layout == null)
+        if (layout == null) {
             Log.d(TAG, "FrameLayout is null");
+            Helper.sendGoogleAnalyticError(FirebaseAnalytics.getInstance(mContext),
+                    mContext.toString() + ":Preview:Constructor", mEmpName,
+                    "FrameLayout is null");
+        }
         layout.addView(Preview.this);
     }
 
@@ -63,12 +72,14 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
                 Log.d(TAG, "mCamera is not null");
                 Camera.CameraInfo mCameraInfo = new Camera.CameraInfo();
                 Camera.getCameraInfo(mCameraId, mCameraInfo);
-                Log.d(TAG, "mCameraInfo is " + (mCameraInfo == null ? "null" : "not null"));
                 mCamera.setPreviewDisplay(mHolder);
                 mCamera.startPreview();
             }
         } catch (IOException e) {
             Log.e(TAG, "surfacedCreated: " + e.getMessage());
+            Helper.sendGoogleAnalyticError(FirebaseAnalytics.getInstance(mContext),
+                    mContext.toString() + ":Preview:surfacedCreated", mEmpName,
+                    e.getMessage());
         }
     }
 
@@ -148,6 +159,9 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
 
         } catch (Exception e){
             Log.e(TAG, "surfaceChanged: " + e.getMessage());
+            Helper.sendGoogleAnalyticError(FirebaseAnalytics.getInstance(mContext),
+                    mContext.toString() + ":Preview:surfaceChanged", mEmpName,
+                    e.getMessage());
         }
     }
 
@@ -233,11 +247,13 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
                 parameters.setPreviewSize(result.width, result.height);
                 mCamera.setParameters(parameters);
             } catch (Exception e) {
-                //e.printStackTrace();
+                Helper.sendGoogleAnalyticError(FirebaseAnalytics.getInstance(mContext),
+                        mContext.toString() + ":Preview:setSmallestPictureSize",
+                        mEmpName, e.getMessage());
             }
         }
 
-        return(result);
+        return result;
     }
 
     private int getFrontCameraId() {
@@ -261,6 +277,8 @@ public class Preview extends SurfaceView implements SurfaceHolder.Callback {
             Log.d(TAG, "Camera is open");
         } catch (Exception e) {
             Log.e(TAG, "failed to open Camera");
+            Helper.sendGoogleAnalyticError(FirebaseAnalytics.getInstance(mContext),
+                    mContext.toString() + ":Preview:openCamara", mEmpName, e.getMessage());
             e.printStackTrace();
         }
         return camera;

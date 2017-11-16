@@ -12,30 +12,44 @@ apply plugin: 'io.fabric'
 
 repositories {
     maven { url 'https://maven.fabric.io/public' }
+    google()
 }
 
 
 android {
+    signingConfigs {
+        config {
+            keyAlias 'timebotskey'
+            keyPassword 'timebots0154'
+            storePassword 'timebots0113'
+            storeFile file('/Users/champ/keystores/timebots.jks')
+        }
+    }
     compileSdkVersion 25
     buildToolsVersion "26.0.2"
     defaultConfig {
         applicationId "com.akinn.timebots"
-        minSdkVersion 17
+        minSdkVersion 16
         targetSdkVersion 25
-        versionCode 6
-        versionName "0.0.1"
+        versionCode 8
+        versionName "1.0.1"
         testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
     }
     buildTypes {
         release {
             minifyEnabled false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            //signingConfig signingConfigs.config
+            signingConfig signingConfigs.config
+        }
+        debug {
+            debuggable true
         }
     }
 }
 
 dependencies {
-    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile fileTree(include: ['*.jar'], dir: 'libs')
     androidTestCompile('com.android.support.test.espresso:espresso-core:2.2.2', {
         exclude group: 'com.android.support', module: 'support-annotations'
     })
@@ -44,11 +58,13 @@ dependencies {
     compile 'com.google.firebase:firebase-storage:9.2.0'
     compile 'com.google.firebase:firebase-database:9.2.0'
     compile 'com.google.firebase:firebase-auth:9.2.0'
+    compile 'com.google.firebase:firebase-core:9.2.0'
     compile 'com.google.android.gms:play-services-location:9.2.0'
     compile 'ch.acra:acra:4.9.2'
     testCompile 'junit:junit:4.12'
     compile('com.crashlytics.sdk.android:crashlytics:2.7.1@aar') {
         transitive = true;
     }
+    compile 'com.android.support:design:25.4.0'
 }
 apply plugin: 'com.google.gms.google-services'

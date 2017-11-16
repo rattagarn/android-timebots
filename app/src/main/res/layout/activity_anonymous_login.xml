@@ -4,29 +4,45 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@color/colorBackground"
     tools:context="com.akinn.timebots.AnonymousLoginActivity">
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/anomynous_toolbar"
+        android:minHeight="?attr/actionBarSize"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        app:contentInsetLeft="0dp"
+        app:contentInsetStart="0dp"
+        android:theme="@style/ThemeOverlay.AppCompat.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light">
+        <TextView
+            android:id="@+id/toolbar_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/kiosk"
+            android:textColor="@android:color/white"
+            android:textAppearance="@style/TextAppearance.AppCompat.Widget.ActionBar.Title"
+            android:layout_gravity="center"
+            />
+    </android.support.v7.widget.Toolbar>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:layout_marginBottom="100dp"
-        android:layout_marginLeft="30dp"
-        android:layout_marginRight="30dp"
-        android:layout_marginTop="30dp"
         android:gravity="center_horizontal"
         android:orientation="vertical"
-        android:padding="20dp"
+        android:padding="40dp"
         android:background="@android:color/background_light"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent">
+        app:layout_constraintTop_toBottomOf="@id/anomynous_toolbar">
 
         <TextView
             android:id="@+id/textViewInstruction"
             android:layout_width="match_parent"
             android:layout_height="50dp"
+            android:layout_marginTop="30dp"
             android:background="@color/colorInstructBg"
             android:gravity="center"
             android:ems="20"
@@ -34,59 +50,23 @@
             android:textAlignment="center"
             android:textColor="@color/colorBrightText" />
 
-        <EditText
-            android:id="@+id/editTextEmpId"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="20dp"
-            android:gravity="center"
-            android:ems="30"
-            android:hint="@string/emp_id"
-            android:inputType="number"
-            android:text="" />
-
-        <Button
-            android:id="@+id/buttonLogin"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_alignParentBottom="true"
-            android:layout_marginTop="20dp"
-            android:background="@color/colorButton"
-            android:ems="30"
-            android:text="@string/login_submit"
-            android:textColor="@color/colorBrightText" />
-        
         <LinearLayout
+            android:id="@+id/empIdContainer"
             android:layout_width="wrap_content"
-            android:layout_height="30dp"></LinearLayout>
-
-        <LinearLayout
-            android:id="@+id/layoutButtonExitLogout"
-            android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:orientation="vertical"
-            app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toStartOf="parent"
-            app:layout_constraintBottom_toBottomOf="parent">
-            <Button
-                android:id="@+id/buttonExit"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:ems="20"
-                android:text="@string/menu_exit"
-                android:background="@color/colorMenuExit" />
-            <Button
-                android:id="@+id/buttonLogout"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:layout_marginTop="5dp"
-                android:layout_marginBottom="5dp"
-                android:ems="20"
-                android:text="@string/logout_submit"
-                android:background="@color/colorLogout" />
-        </LinearLayout>
-    </LinearLayout>
+            android:layout_marginTop="24dp"
+            android:layout_marginBottom="20dp"
+            android:orientation="horizontal">
 
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/buttonLogin"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="14dp"
+            android:layout_marginBottom="14dp"
+            android:padding="8dp"
+            android:text="@string/login_submit"/>
+    </LinearLayout>
 </android.support.constraint.ConstraintLayout>

@@ -69,11 +69,11 @@ public class ScanActivity extends AppCompatActivity {
         if (checkCameraHardware(getApplicationContext())) {
             FrameLayout previewPane = (FrameLayout) findViewById(R.id.cameraPreview);
             mPreview = new Preview(getApplicationContext(), null,
-                    null, previewPane);
+                    null, previewPane, mEmpName);
         } else {
             FrameLayout previewPane = (FrameLayout) findViewById(R.id.cameraPreview);
             mPreview = new Preview(getApplicationContext(), null,
-                    null, previewPane);
+                    null, previewPane, mEmpName);
             buttonTakePicture.setEnabled(true);
             Toast.makeText(getApplicationContext(), "No front camera!!!", Toast.LENGTH_LONG)
                     .show();

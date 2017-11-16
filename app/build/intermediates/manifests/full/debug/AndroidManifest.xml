@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.akinn.timebots"
-    android:versionCode="6"
-    android:versionName="0.0.1" >
+    android:versionCode="7"
+    android:versionName="1.0.0" >
 
     <uses-sdk
-        android:minSdkVersion="17"
+        android:minSdkVersion="16"
         android:targetSdkVersion="25" />
 
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
@@ -15,10 +15,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <uses-feature android:name="android.hardware.camera.front" />
-
-    <meta-data
-        android:name="android.support.VERSION"
-        android:value="25.3.1" /> <!-- Optional permission for App measurement to run. -->
+    <!-- Optional permission for App measurement to run. -->
     <uses-permission android:name="android.permission.WAKE_LOCK" />
     <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
 
@@ -35,18 +32,15 @@
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
-        android:screenOrientation="portrait"
         android:supportsRtl="true"
         android:theme="@style/AppTheme" >
-        <activity
-            android:name="com.akinn.timebots.LoginActivity"
-            android:noHistory="true" >
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+        <!--
+        <activity
+            android:name=".LoginActivity"
+            android:noHistory="true">
         </activity>
+        -->
         <!-- <activity android:name=".MainActivity" /> -->
         <!--
             <activity
@@ -56,9 +50,11 @@
         <activity android:name="com.akinn.timebots.AnonymousLoginActivity" />
         <!-- <activity android:name=".LocationTrackerActivity" /> -->
         <!-- <activity android:name=".ReviewActivity" /> -->
-        <activity
-            android:name="com.akinn.timebots.Scan2Activity"
+        <!--
+            <activity
+            android:name=".Scan2Activity"
             android:screenOrientation="portrait" />
+        -->
 
         <service
             android:name="com.akinn.timebots.MyLocationService"
@@ -67,6 +63,19 @@
         <meta-data
             android:name="io.fabric.ApiKey"
             android:value="f2f7e916209b6bda7569d99ad345cc55f2d8f824" />
+
+        <activity android:name="com.akinn.timebots.ScanCompatActivity" />
+        <activity android:name="com.akinn.timebots.Login2Activity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="android.support.VERSION"
+            android:value="25.4.0" />
 
         <activity
             android:name="org.acra.dialog.CrashReportDialog"

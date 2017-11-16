@@ -92,7 +92,6 @@ public class Scan2Activity extends AppCompatActivity implements
         LocationListener {
 
     final static String TAG = Scan2Activity.class.getSimpleName();
-    final static String mFolderPath = "/sdcard/timebots";
     String mFileName = "";
 
     Preview mPreview;
@@ -109,6 +108,8 @@ public class Scan2Activity extends AppCompatActivity implements
 
     double mLongitude = 0.0;
     double mLatitude = 0.0;
+
+    String mFolderPath = "";
 
     String mImgURI = "";
 
@@ -168,7 +169,7 @@ public class Scan2Activity extends AppCompatActivity implements
             } else {
                 FrameLayout previewPane = (FrameLayout) findViewById(R.id.cameraPreview);
                 mPreview = new Preview(getApplicationContext(), null,
-                        null, previewPane);
+                        null, previewPane, mEmpName);
             }
         } else {
             if (Build.VERSION.SDK_INT >= Build.VERSION_CODES.M) {
@@ -182,7 +183,7 @@ public class Scan2Activity extends AppCompatActivity implements
             } else {
                 FrameLayout previewPane = (FrameLayout) findViewById(R.id.cameraPreview);
                 mPreview = new Preview(getApplicationContext(), null,
-                        null, previewPane);
+                        null, previewPane, mEmpName);
                 Toast.makeText(getApplicationContext(), "No front camera!!!", Toast.LENGTH_LONG)
                         .show();
                 buttonCapture.setVisibility(View.VISIBLE);

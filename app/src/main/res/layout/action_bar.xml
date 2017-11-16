@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/transparent">
+    <TextView
+        android:id="@+id/textViewEmpIdLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="@string/emp_id"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/textViewEmpId"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewEmpIdLabel"
+        android:layout_alignParentTop="true"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="999999"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/textViewEmpNameLabel"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@id/textViewEmpId"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="@string/emp_name"
+    android:textAppearance="?android:attr/textAppearanceMedium"/>
+    <TextView
+        android:id="@+id/textViewEmpName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/textViewEmpIdLabel"
+        android:layout_below="@id/textViewEmpId"
+        android:maxLines="1"
+        android:ellipsize="end"
+        android:text="รัฐกานต์ วาทย์ชีรานนท์"
+        android:textAppearance="?android:attr/textAppearanceMedium"/>
+</RelativeLayout>

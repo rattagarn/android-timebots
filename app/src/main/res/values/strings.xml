@@ -7,9 +7,9 @@
     <string name="logout_submit">ออกจากระบบ</string>
     <string name="copyright">2017 \u00A9 by Akinn</string>
     <string name="version">version 0.0.1</string>
-    <string name="emp_id">รหัสพนักงาน</string>
-    <string name="emp_name">ชื่อ</string>
-    <string name="scan_in">บันทึกเวลาล่าสุด</string>
+    <string name="emp_id">หมายเลขพนักงาน:</string>
+    <string name="emp_name">ชื่อพนักงาน:</string>
+    <string name="scan_in">บันทึกล่าสุด:</string>
     <string name="password">รหัสผ่าน</string>
     <string name="menu_scan">สแกนเข้างาน</string>
     <string name="menu_exit">ปิดโปรแกรม</string>
@@ -32,4 +32,9 @@
     <string name="ok">ตกลง</string>
     <string name="succes_scanin">สแกนสำเร็จ</string>
     <string name="fail_scanin">สแกนไม่สำเร็จ</string>
+    <string name="fire_db_error_query_scan">เกิดปัญหาในการดึงข้อมูลการบันทึกเวลา</string>
+    <string name="fire_str_upload_image">ไม่สามารถส่งรูป</string>
+    <string name="invalid_login">หมายเลขพนักงาน หรือ รหัสผ่านไม่ถูกต้อง</string>
+    <string name="invalid_userid">หมายเลขพนักงานไม่ถูกต้อง</string>
+    <string name="kiosk">เครื่องบันทึกเวลาส่วนกลาง</string>
 </resources>
